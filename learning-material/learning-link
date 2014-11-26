@@ -1,0 +1,155 @@
+main link: https://wiki.innerweb.novell.com/index.php/RD-OPS_QA/Preload
+swamp processing: https://wiki.innerweb.novell.com/index.php/RD-OPS_QA/Preload/HP_Acer_Swamp
+migration: https://wiki.innerweb.novell.com/index.php/Maintenance/SLE11_SP2_Online_Migration
+
+certification_result: https://wiki.innerweb.novell.com/index.php/RD-OPS_QA/Preload/HP_Certification_result#2012_Preload_Certification_Testing
+preload_asset: https://wiki.innerweb.novell.com/index.php?title=RD-OPS_QA/Preload/Preload_Asset
+
+snoek: http://147.2.207.135:8080/
+
+SMT :
+https://twiki.innerweb.novell.com/bin/view/Main/SLEDTESTING 
+https://twiki.innerweb.novell.com/bin/view/Main/SMT_Online
+
+archlinux.org: https://wiki.archlinux.org/index.php/All_Mouse_Buttons_Working
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+step to remove ncc register:
+rm -rf /etc/zypp/credentials.d/NCCcredentials 
+rm -rf /etc/zypp/services.d/nu_novell_com.service 
+rm -rf /etc/zypp/repos.d/*                        
+rm -rf /var/cache/zypp/*
+rm -rf /var/cache/SuseRegister/*
+
+check the release note: 
+SLED 11 introduction:
+https://www.suse.com/documentation/sled11/singlehtml/book_sle_admin/book_sle_admin.html
+
+
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+rpm;iso; :http://bbs.hh010.com/thread-25537-5-1.html
+
+wifi & wimax: http://zhidao.baidu.com/question/96588023.html
+wifi & 3G: http://wenku.baidu.com/view/c62a011152d380eb62946d46.html
+
+Intel 处理器： http://baike.baidu.com/view/2029079.htm
+Intel Xeon: http://baike.baidu.com/view/416484.htm
+mobile CPU: http://wenku.baidu.com/view/780ede5cbe23482fb4da4cd9.html
+Intel mobile serious: http://wenku.baidu.com/view/d4c75173f46527d3240ce037.html
+
+sandy bridge: http://baike.baidu.com/view/1639147.htm
+ivy bridge: http://baike.baidu.com/view/2721676.htm
+
+Intel product:
+pentium core centrino
+
+
+eDP介绍： http://wenku.baidu.com/view/9c4684eb998fcc22bcd10d60.html
+GPU： http://baike.baidu.com/view/1196.htm
+
+led lcd crt比较： http://zhidao.baidu.com/question/317784986.html
+
+外接显示器clone 和extend MODE: http://topic.csdn.net/u/20111221/12/f0a90deb-a765-4a3c-a334-9250e426b00a.html
+
+X-window: http://wenku.baidu.com/view/e9a59a3a5727a5e9856a61ea.html
+
+dmi总线： http://zhidao.baidu.com/question/164287486.html
+
+1080p: http://baike.baidu.com/view/518102.htm
+
+localizition test: http://baike.baidu.com/view/651449.html
+
+smoke test: http://baike.baidu.com/view/120013.htm
+
+drm/dri: wiki page http://dri.freedesktop.org/wiki/DRM/
+
+PPPOE/ ADSL/ modem: http://hi.baidu.com/%C4%CD%B8%F1%C0%BC/blog/item/396b0409ebcb6ef162d98615.html
+
+xiaohuahua: http://bbs.c114.net/viewthread.php?tid=627327
+
+NIC: http://baike.baidu.com/view/22255.htm
+
+DVD+RW/ DVD-RW :http://bbs.dospy.com/thread-18180-1-1.html
+
+panic: http://wenku.baidu.com/view/519c8009844769eae009ed50.html
+
+shown info share: http://www.infoq.com/cn/vendorcontent/show.action?vcr=1928
+
+20120919：
+AD introduce: http://tech.ddvip.com/2009-05/1242610599119589.html
+AD install: http://g.51cto.com/yibi/584
+ESX server: http://server.ccw.com.cn/jssc/htm2007/20071219_359086.shtml
+MS exchange server: http://technet.microsoft.com/en-us/library/bb124778.aspx
+
+kerberos:
+介绍： http://www.freebsd.org/doc/zh_CN/books/handbook/kerberos5.html
+介绍： http://www.cnblogs.com/jankie/archive/2011/08/22/2149285.html
+
+201209
+kdump 原理分析：http://blog.csdn.net/jianghuyue/article/details/6433962
+配置：http://bbs.chinaunix.net/thread-1979060-1-1.html
+
+
+20121017: (for sp3 features)
+suse manager1.7:
+http://tech.ccidnet.com/art/737/20120921/4293525_1.html
+http://linux.cn/thread/9385/1/1/
+
+ipv6 introduction:http://baike.baidu.com/view/21907.htm and http://zh.wikipedia.org/wiki/IPv6
+
+BNA管理平台： http://it.msn.com.cn/889548/317385330174.shtml
+SR-IOV： 
+http://hi.baidu.com/davidland/item/71c595123d33dd4ce65e0655
+http://server.zdnet.com.cn/server/2010/0723/1824279.shtml（benefit）
+PCIe modified for SR-IOV support: http://www.docin.com/p-134308563.html 
+Xenserver introduction:http://baike.baidu.com/view/6096791.htm
+虚拟功能的 创建、修改和删除（PCIe SR-IOV 虚拟功能）：http://docs.oracle.com/cd/E35843_01/html/E29609/usingsriov.html
+SR－IOV调研论文：http://www.docin.com/p-151404827.html
+windows SR-IOV configue: http://tech.ddvip.com/2012-11/1352262304184926.html
+
+
+citrix server introduction:http://zhidao.baidu.com/question/76333337
+citrix server on win2003server: 
+http://server.it168.com/a2009/0317/268/000000268803_3.shtml
+based on xenserver: http://wenku.baidu.com/view/3a43740516fc700abb68fc84(xenapp6.5)
+all :http://3y.uu456.com/search_xenapp_20.html
+citrix and other need app: http://wenku.baidu.com/view/be2c0e0f763231126edb11ec.html
+citrix server setup: http://wenku.baidu.com/view/be2c0e0f763231126edb11ec.html
+
+
+20121023:
+LVM: http://baike.baidu.com/view/361916.htm
+device mapper: http://sourceware.org/dm/ and http://en.wikipedia.org/wiki/Device_mapper
+snapshot in LVM: http://linuxop.blog.51cto.com/13377/128291 AND http://blog.chinaunix.net/uid-24648486-id-3025159.html
+
+Catapult C综合: http://www.szicc.net/function/eda/ns/m1.htm
+
+snapper and installation:
+http://lizards.opensuse.org/2011/04/01/introducing-snapper/
+http://en.opensuse.org/openSUSE:Snapper_install
+Snapper and LVM thin-provisioned Snapshots: http://lizards.opensuse.org/2012/07/25/snapper-lvm/
+snapper user guide on sled11 :http://doc.opensuse.org/products/draft/SLES/SLES-admin_sd_draft/cha.snapper.html
+Snapshots/Rollback with Snapper in sled11: Snapshots/Rollback with Snapper
+
+btrfs and lvm and zfs compare: http://serverfault.com/questions/300961/lvm-snapshots-vs-file-system-snapshots
+btrfs FAQ: https://btrfs.wiki.kernel.org/index.php/FAQ
+btrfs wiki: https://btrfs.wiki.kernel.org/index.php/SysadminGuide
+btrfs snapshot: http://blog.rot13.org/2010/02/using_btrfs_snapshots_for_incremental_backup.html
+
+KMP package: http://www.novell.com/developer/creating_a_kernel_module_package_%28kmp%29.html
+OBS service : https://hillwoodhome.info/archives/76s
+
+btrfs wiki:https://btrfs.wiki.kernel.org/index.php/Main_Page
+on-line update: https://www.suse.com/documentation/sled11/singlehtml/book_sle_admin/book_sle_admin.html#cha.onlineupdate.you
+zypper and rpm usage : https://www.suse.com/documentation/sled11/singlehtml/book_sle_admin/book_sle_admin.html#cha.sw_cl (chap7)
+
+proxy server; and 路由器  交换机 网关 集线器
+upstream: http://superuser.com/questions/269942/what-is-upstream
+
+X window and X client: http://www.ibentu.org/2010/11/06/introduce-to-wayland-01.html
+Wayland: http://www.ibentu.org/2010/11/06/introduce-to-wayland-02.html
+X server启动及原理剖析： http://www.google.com.hk/url?sa=t&rct=j&q=X+client+and+X+server+%E4%BB%8B%E7%BB%8D&source=web&cd=5&cad=rja&ved=0CFEQFjAE&url=http%3A%2F%2Fwww.cnblogs.com%2Fsuper119%2Farchive%2F2010%2F12%2F18%2F1910065.html&ei=gLHKUJHJI9HpqAH2iYCwCg&usg=AFQjCNHhj3ElU5qEsxzWu0ed6_MipY7vYQ
